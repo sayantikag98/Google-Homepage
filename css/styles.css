@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: medium;
+}
+
+.top-right-icons {
+  margin: 10px 0 0 1175px;
+  position: relative;
+  height: 70px;
+}
+
+.gmail {
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.gmail a {
+  text-decoration: none;
+}
+
+.gmail a:hover {
+  text-decoration: underline;
+}
+
+.images {
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 70px;
+}
+
+.images a {
+  text-decoration: none;
+}
+
+.images a:hover {
+  text-decoration: underline;
+}
+
+.app-icon {
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  left: 135px;
+  width: 70px;
+  padding: 10px;
+}
+
+.app-icon .material-icons {
+  font-size: 25px;
+}
+
+.app-icon:hover {
+  border-radius: 20px;
+  width: 45px;
+  height: 45px;
+  background-color: rgb(240, 238, 238);
+  padding: 10px;
+}
+
+.account-icon {
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 190px;
+}
+
+.account-icon .material-icons {
+  font-size: 40px;
+  color: orangered;
+}
+
+.middle-search-bar {
+  position: relative;
+  text-align: center;
+  height: 620px;
+}
+
+.google-logo img {
+  width: 300px;
+  display: block;
+  position: absolute;
+  top: 90px;
+  left: 550px;
+}
+
+.text-bar input {
+  position: absolute;
+  width: 680px;
+  height: 55px;
+  top: 225px;
+  left: 370px;
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid rgb(211, 224, 241);
+}
+
+.text-bar input:hover {
+  border-radius: 50px;
+  border: 1px solid rgb(201, 194, 194);
+  box-shadow: 2px 2px 20px rgb(210, 223, 223);
+}
+
+.text-bar input[type="text"] {
+  padding: 0 50px;
+  font-size: large;
+}
+
+.text-bar-search {
+  position: absolute;
+  top: 242px;
+  left: 385px;
+  color: rgb(146, 143, 143);
+  cursor: default;
+}
+
+.text-bar-microphone {
+  position: absolute;
+  top: 242px;
+  left: 1005px;
+  color: rgb(21, 95, 231);
+  cursor: pointer;
+}
+
+.search-button {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  left: 550px;
+  top: 310px;
+  background-color: rgb(245, 243, 243);
+  border: 0;
+}
+
+.search-button:hover,
+.lucky-button:hover {
+  border-radius: 5px;
+  border: 1px solid rgb(201, 194, 194);
+  box-shadow: 2px 2px 20px rgb(245, 243, 243);
+  cursor: pointer;
+}
+
+.lucky-button {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  top: 310px;
+  background-color: rgb(245, 243, 243);
+  border: 0;
+}
+
+.language {
+  display: inline-block;
+  position: absolute;
+  top: 380px;
+  color: navy;
+}
+
+.search-english {
+  left: 390px;
+  color: darkslategray;
+}
+
+.search-hindi {
+  left: 520px;
+}
+
+.search-bengali {
+  left: 560px;
+}
+
+.search-telegu {
+  left: 610px;
+}
+
+.search-marathi {
+  left: 670px;
+}
+
+.search-tamil {
+  left: 720px;
+}
+
+.search-gujarati {
+  left: 780px;
+}
+
+.search-kannada {
+  left: 840px;
+}
+
+.search-malayalam {
+  left: 900px;
+}
+
+.search-punjabi {
+  left: 990px;
+}
+
+.search-hindi:hover,
+.search-bengali:hover,
+.search-telegu:hover,
+.search-marathi:hover,
+.search-tamil:hover,
+.search-gujarati:hover,
+.search-kannada:hover,
+.search-malayalam:hover,
+.search-punjabi:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-box-first {
+  position: relative;
+  height: 50px;
+  background-color: rgb(245, 242, 242);
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.india-box {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  font-size: large;
+  color: darkslategray;
+}
+
+.footer-box-second {
+  position: relative;
+  height: 50px;
+  background-color: rgb(245, 242, 242);
+}
+
+.bottom-most-box {
+  position: absolute;
+  margin: 15px 40px;
+}
+
+.last-box {
+  position: absolute;
+  display: inline-block;
+  color: darkslategray;
+  font-size: medium;
+}
+
+.advertising {
+  left: 60px;
+}
+
+.business {
+  left: 150px;
+}
+
+.search {
+  width: 200px;
+  left: 230px;
+}
+
+.privacy {
+  left: 1130px;
+}
+
+.terms {
+  left: 1200px;
+}
+
+.settings {
+  left: 1270px;
+}
+
+.about:hover,
+.advertising:hover,
+.business:hover,
+.search:hover,
+.privacy:hover,
+.terms:hover,
+.settings:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
